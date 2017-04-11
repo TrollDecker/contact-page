@@ -30,14 +30,14 @@ a {
     color: #22ff22;
 }
 
-table {
-    text-shadow: 0px 0px 1px #2aff2a;
-}
-
 .row {
     padding-top: 0.5em;
     padding-bottom: 0.2em;
     background-color: #001000;
+}
+
+.no-padding {
+	padding: 0;
 }
 
 .footer{
@@ -63,17 +63,20 @@ li {
 
 form {
     margin: 0;
+    background-color: inherit;
 }
 
 .table {
     display: table;
     margin: auto;
     padding-bottom: 5px;
+    text-shadow: 0px 0px 2px #2aff2a;
 }
 
 input {
     border: 0;
-    text-shadow: 1px 1px 6px #2aff2a;
+	text-shadow: 0px 0px 2px #2aff2a;
+    background-color: inherit;
 }
 
 .code {
