@@ -1,0 +1,36 @@
+#main, .table {
+    min-width: 100%;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.group {
+    display: table-row-group;
+}
+
+.row {
+    display: table;
+    width: 100%;
+    text-align: center;
+ }
+
+.header {
+    display: table-row;
+    min-width: inherit;
+    width: 100%;
+    text-align: center;
+    background-color: inherit;
+}
+
+.column {
+    display: table-row;
+    min-width: inherit;
+    width: 100%;
+    text-align: center;
+    background-color: inherit;
+}
+
+.link {
+    display: table-cell;
+    text-align: center;
+}
