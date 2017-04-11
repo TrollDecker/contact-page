@@ -7,6 +7,8 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
+	height: 98%;
+	margin: 0.5%;
 }
 
 #main {
