@@ -34,3 +34,11 @@
     display: table-cell;
     text-align: center;
 }
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	body {
+		font-size: 40px;
+	}
+}
